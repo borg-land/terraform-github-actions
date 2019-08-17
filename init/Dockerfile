@@ -1,4 +1,4 @@
-FROM hashicorp/terraform:0.12.6
+FROM quay.io/upodroid/build-image
 
 LABEL "com.github.actions.name"="terraform init"
 LABEL "com.github.actions.description"="Run terraform init"

@@ -1,4 +1,4 @@
-FROM hashicorp/terraform:0.12.6
+FROM quay.io/upodroid/build-image:latest
 
 LABEL "com.github.actions.name"="terraform plan"
 LABEL "com.github.actions.description"="Run terraform plan"

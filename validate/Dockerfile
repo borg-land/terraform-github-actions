@@ -1,4 +1,4 @@
-FROM hashicorp/terraform:0.12.6
+FROM quay.io/upodroid/build-image:latest
 
 LABEL "com.github.actions.name"="terraform validate"
 LABEL "com.github.actions.description"="Validate the terraform files in a directory"

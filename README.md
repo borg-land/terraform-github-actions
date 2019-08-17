@@ -1,6 +1,8 @@
 # Terraform GitHub Actions
 These official Terraform GitHub Actions allow you to run `terraform fmt`, `validate`, `plan` and `apply` on your pull requests to help you review, validate and apply Terraform changes.
 
+## This is forked repo with a modified base docker image.
+
 ## Getting Started
 To get started, check out our documentation: [https://www.terraform.io/docs/github-actions/getting-started/](https://www.terraform.io/docs/github-actions/getting-started/).
 
