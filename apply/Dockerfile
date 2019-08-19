@@ -1,4 +1,4 @@
-FROM quay.io/upodroid/build-image
+FROM quay.io/upodroid/build-image:tf-0.12.6
 
 LABEL "com.github.actions.name"="terraform apply"
 LABEL "com.github.actions.description"="Run Terraform Apply"

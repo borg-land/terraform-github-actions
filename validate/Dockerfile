@@ -1,4 +1,4 @@
-FROM quay.io/upodroid/build-image:latest
+FROM quay.io/upodroid/build-image:tf-0.12.6
 
 LABEL "com.github.actions.name"="terraform validate"
 LABEL "com.github.actions.description"="Validate the terraform files in a directory"
